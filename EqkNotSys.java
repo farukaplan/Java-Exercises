@@ -2,10 +2,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-//Name: Faruk
-//Surname: KAPLAN
-//Student ID: 21050111026
-
 class Earthquake {
 	private String location;
 	private String date; 
