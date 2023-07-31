@@ -1,9 +1,5 @@
 import java.util.Random;
 
-// Name : Faruk
-// Surname : KAPLAN
-// Student ID : 21050111026
-
 public class App {
 
     public static int mergeCompare = 0;
