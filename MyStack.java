@@ -1,7 +1,3 @@
-// Name      : Faruk 
-// Surname   : KAPLAN
-// Student ID: 21050111026
-
 class Node {
 
     private int data;
