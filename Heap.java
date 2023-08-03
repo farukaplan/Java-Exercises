@@ -1,7 +1,3 @@
-// Name: Faruk
-// Surname: KAPLAN
-// Student ID: 21050111026
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
