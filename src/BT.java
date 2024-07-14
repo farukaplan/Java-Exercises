@@ -52,7 +52,7 @@ class BinaryTree {
   
 /////////////////////////////////////////////////////
 
-public class Lab7{
+public class BT {
     public static void main(String[] args) {
     
         Scanner sc = new Scanner(System.in);

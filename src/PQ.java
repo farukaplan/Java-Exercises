@@ -101,7 +101,7 @@ class AlphabetLinkedPQ {
 
 ////////////////////////////////////////
 
-public class Lab9 {
+public class PQ {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

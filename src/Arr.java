@@ -88,7 +88,7 @@ class MyArray {
 
 ///////////////////////////////////////////////////////////////////
 
-public class Lab6 {
+public class Arr {
    public static void main(String[] args) {
       MyArray m = new MyArray();
       System.out.print(m.display());

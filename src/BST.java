@@ -106,7 +106,7 @@ class BinarySearchTree {
 
 //////////////////////////////////////////////////////
      
-public class Lab8 {
+public class BST {
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
         Scanner sc = new Scanner(System.in);

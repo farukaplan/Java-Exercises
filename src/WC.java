@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Lab10 {
+public class WC {
     public static void main(String[] args) {
         List<String> stopWords = Arrays.asList("a", "an", "the", "is", 
         "this", "to", "of", "and", "you", "that", "he", "she", "it", "with", "they", "I");
