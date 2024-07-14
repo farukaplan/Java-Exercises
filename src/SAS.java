@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class App {
+public class SAS {
 
     public static int mergeCompare = 0;
     public static int quickCompare = 0;
