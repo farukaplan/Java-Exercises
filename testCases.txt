@@ -1,0 +1,113 @@
+TEST CASE 1
+
+MyStack myStack = new MyStack();
+System.out.print(myStack.evaluate("print"));
+System.out.print(myStack.evaluate("50"));
+System.out.print(myStack.evaluate("print"));
+System.out.print(myStack.evaluate("20"));
+System.out.print(myStack.evaluate("10"));
+System.out.print(myStack.evaluate("print"));
+System.out.print(myStack.evaluate("*"));
+System.out.print(myStack.evaluate("print"));
+System.out.print(myStack.evaluate("+"));
+System.out.print(myStack.evaluate("print"));
+System.out.print(myStack.evaluate("pop"));
+System.out.print(myStack.evaluate("print"));
+System.out.print(myStack.evaluate("10"));
+System.out.print(myStack.evaluate("20"));
+System.out.print(myStack.evaluate("print"));
+System.out.print(myStack.evaluate("/"));
+System.out.print(myStack.evaluate("#"));
+System.out.print(myStack.evaluate("print"));
+System.out.print(myStack.evaluate("push"));
+System.out.print(myStack.evaluate("exit"));
+
+Output:
+[]
+[50]
+[10, 20, 50]
+[200, 50]
+[250]
+250
+[]
+[20, 10]
+Invalid operator
+[0]
+Invalid operator
+$
+
+TEST CASE 2
+ 
+MyStack myStack2 = new MyStack();
+
+System.out.print(myStack2.evaluate("print 5 print 10 30 print * print + print pop print exit"));
+
+Output: 
+[]
+[5]
+[30, 10, 5]
+[300, 5]
+[305]
+305
+[]
+$
+
+TEST CASE 3
+
+MyStack myStack3 = new MyStack();
+
+System.out.print(myStack3.evaluate("9 2 abc 1.0 3 print"));
+System.out.print(myStack3.evaluate("+ print + print"));
+System.out.print(myStack3.evaluate("+ - print"));
+System.out.print(myStack3.evaluate("exit")); 
+
+Output: 
+Invalid operator
+Invalid operator
+[3, 2, 9]
+[5, 9]
+[14]
+Not enough integers in the stack
+Not enough integers in the stack
+[14]
+$
+
+TEST CASE 4
+
+MyStack myStack4 = new MyStack();
+
+System.out.print(myStack4.evaluate("1 2 3 4 + + +"));
+System.out.print(myStack4.evaluate("print"));
+System.out.print(myStack4.evaluate("pop"));
+System.out.print(myStack4.evaluate("print"));
+System.out.print(myStack4.evaluate("5 4 * 8 2 / - 9 +"));
+System.out.print(myStack4.evaluate("print"));
+System.out.print(myStack4.evaluate("exit"));
+
+Output: 
+[10]
+10
+[]
+[25]
+$
+
+TEST CASE 5
+MyStack myStack5 = new MyStack();
+
+System.out.print(myStack5.evaluate("100 39"));
+System.out.print(myStack5.evaluate("print"));
+System.out.print(myStack5.evaluate("% print"));
+System.out.print(myStack5.evaluate("12 print"));
+System.out.print(myStack5.evaluate("- print"));
+System.out.print(myStack5.evaluate("5 / print"));
+System.out.print(myStack5.evaluate("6 * print"));
+System.out.print(myStack5.evaluate("exit"));
+ 
+Output:
+[39, 100]
+[22]
+[12, 22]
+[10]
+[2]
+[12]
+$ 
