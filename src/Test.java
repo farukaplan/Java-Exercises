@@ -321,9 +321,9 @@ public class Test {
 	}
 	
 	public static void main(String[] args) {
-		readInput("input.txt");
+		readInput("data/input.txt");
 		eList.displayList();
 		System.out.println("-");
-		readQueries("request.txt");	
+		readQueries("data/request.txt");	
 	}
 }
