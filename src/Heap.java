@@ -193,7 +193,7 @@ class BinaryHeapDriver {
         Heap heap = new Heap();
 
         try {
-            File file = new File("process.txt");
+            File file = new File("data/process.txt");
             Scanner scan = new Scanner(file);
 
             while(scan.hasNextLine()) {
