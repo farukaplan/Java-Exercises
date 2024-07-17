@@ -39,9 +39,13 @@ To get started with the exercises, follow these steps:
     ```
 
 ## Build and Run
+
+### Build
 ```sh
 javac file_name.java
 ```
+
+### Run
 ```sh
 java file_name
 ```
